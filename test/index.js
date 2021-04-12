@@ -1,7 +1,7 @@
 require('should');
 const promisify = require('util').promisify;
 const path = require('path');
-const hljs = require('highlightjs');
+const hljs = require('highlight.js');
 const fs = require('fs');
 const hljsDefineCypher = require('../src/cypher');
 hljs.registerLanguage('cypher', hljsDefineCypher);
